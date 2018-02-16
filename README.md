@@ -9,12 +9,14 @@ Simple backend application for managing these endpoints:
 # PreRequirements
   - PHP
   - mysql with existing database bsc
+  - Composer
 
 # Installation
 1) clone repository
 ```
 git clone git@github.com:Xchos/bsc-backend.git
 cd bsc-backend
+composer install
 ```
 2)  specify mysql database connection in file `.env`.
 
