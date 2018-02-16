@@ -13,7 +13,7 @@ class NotesTableSeeder extends Seeder
     {
         \App\Note::truncate();
         $faker = \Faker\Factory::create();
-        for ($i = 0; $i < 3; $i++) {
+        for ($i = 0; $i < 2; $i++) {
             \App\Note::create(['title' => $faker->sentence]);
         }
     }
